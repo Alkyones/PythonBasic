@@ -1,17 +1,3 @@
-'''
-from random import randint
-
-
-#Objects and their speeds
-dic={'carA':randint(200,400),'carB':randint(200,400),'carC':randint(200,400),'carD':randint(200,400)}
-
-
-#winner
-for car , speed in dic.items():
-    if speed==max(dic.values()):
-        car1=car
-print(f'Winner is {car1}')
-'''
 import turtle
 from random import randint
 from time import sleep
